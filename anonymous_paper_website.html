@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Attack in Your Pocket: Understanding Security Threats in Mobile LLM Agents (Anonymous)</title>
+  <meta name="description" content="Project page for a research paper (double‑blind ready)">
+  <style>
+    :root{
+      --bg:#0b0d12;--panel:#11141b;--muted:#96a0b5;--text:#e8edf7;--accent:#82caff;--accent2:#a7ffda;--card:#0e1218;
+      --maxw:1040px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,"Noto Sans",sans-serif}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:var(--maxw);margin:0 auto;padding:24px}
+    header.hero{padding:64px 0;background:radial-gradient(1200px 600px at 50% -10%,rgba(130,202,255,.15),transparent),linear-gradient(180deg,rgba(167,255,218,.08),transparent 60%)}
+    .title{font-size:clamp(28px,5vw,48px);line-height:1.1;margin:0 0 8px;font-weight:800;letter-spacing:.2px}
+    .subtitle{font-size:clamp(16px,2.2vw,20px);color:var(--muted);margin:6px 0 0}
+    .pill{display:inline-flex;gap:8px;align-items:center;background:linear-gradient(135deg,rgba(130,202,255,.15),rgba(167,255,218,.15));border:1px solid rgba(255,255,255,.08);padding:8px 12px;border-radius:999px;font-size:14px;color:#cfe6ff}
+    .row{display:flex;gap:24px;flex-wrap:wrap}
+    .col{flex:1 1 320px}
+    .card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:18px}
+    .buttons{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 0}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.10);color:var(--text);font-weight:600}
+    .btn:hover{transform:translateY(-1px);transition:.15s ease}
+    h2{font-size:clamp(20px,3vw,28px);margin:24px 0 12px}
+    .teaser{width:100%;aspect-ratio:16/9;background:#0a0e14;border:1px dashed rgba(255,255,255,.12);border-radius:16px;display:grid;place-items:center;color:#7f8ba8}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .small{font-size:14px;color:var(--muted)}
+    code, pre{font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    pre{background:#0a0e14;border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:12px;overflow:auto}
+    footer{border-top:1px solid rgba(255,255,255,.08);margin-top:40px}
+    .footer{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;color:var(--muted)}
+    .badge{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.12);font-size:12px;color:#c9d7ef}
+    .authors{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 0}
+    .anon{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);padding:2px 8px;border-radius:999px}
+    .bib{white-space:pre-wrap}
+    .toc{display:flex;gap:16px;flex-wrap:wrap;margin-top:16px}
+    .toc a{color:#cfe6ff;border:1px solid rgba(255,255,255,.1);padding:6px 10px;border-radius:10px;background:rgba(130,202,255,.08)}
+    .toc a:hover{background:rgba(130,202,255,.14)}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <div class="pill">ICLR 202X (Under Double‑Blind Review)</div>
+      <h1 class="title">Attack in Your Pocket: Understanding Security Threats in Mobile LLM Agents</h1>
+      <p class="subtitle">A study of security threats in mobile LLM agents.</p>
+
+      <div class="authors">
+        <span class="anon">Anonymous Authors</span>
+        <span class="anon">Affiliation Withheld</span>
+      </div>
+
+      <div class="buttons">
+        <a class="btn" href="#" target="_blank" rel="noopener">📄 Paper (OpenReview)</a>
+        <a class="btn" href="#" target="_blank" rel="noopener">🧾 arXiv (anon)</a>
+        <a class="btn" href="#code" >💻 Code (anon)</a>
+        <a class="btn" href="#bib">🔖 BibTeX</a>
+        <a class="btn" href="#demo">▶️ Demo</a>
+      </div>
+
+      <nav class="toc">
+        <a href="#abstract">Abstract</a>
+        <a href="#overview">Overview</a>
+        <a href="#results">Results</a>
+        <a href="#artifacts">Artifacts</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="teaser" class="row">
+      <div class="col">
+        <div class="teaser">Replace with teaser image (16:9)</div>
+      </div>
+      <div class="col card">
+        <h2 id="abstract">Abstract</h2>
+        <p>Replace this with your paper abstract. Keep it identical to the PDF. Do not include author names, institutions, or acknowledgements during double‑blind review.</p>
+        <ul class="small">
+          <li>1–2 line highlight of the main finding.</li>
+          <li>One sentence on method / dataset / evaluation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>Short introduction of your problem, method, and contributions, similar to <em>ASBench</em> and <em>HAT‑Lab</em> pages. Add 1–2 figures below.</p>
+      <div class="grid">
+        <div class="teaser">Figure placeholder</div>
+        <div class="teaser">Figure placeholder</div>
+      </div>
+    </section>
+
+    <section id="results">
+      <h2>Key Results</h2>
+      <div class="grid">
+        <div class="card">
+          <h3 style="margin-top:0">Main Table</h3>
+          <p class="small">Insert a PNG/SVG of the main metric table. Add 1–2 bullet takeaways.</p>
+          <ul class="small"><li>Our method improves X by Y% on Z.</li><li>Robust under setting Q.</li></ul>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Ablations & Visuals</h3>
+          <p class="small">Add ablation chart or qualitative examples.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo">
+      <h2>Demo (optional)</h2>
+      <div class="teaser">Embed a video (YouTube unlisted) or GIF here.</div>
+    </section>
+
+    <section id="artifacts">
+      <h2>Artifacts & Code</h2>
+      <p id="code" class="small">Host your code/data in a GitHub repository and share an <strong>anonymous 4open.science</strong> link here. Provide a minimal README for reviewers.</p>
+      <ul>
+        <li><strong>Code:</strong> <a href="#" target="_blank" rel="noopener">anonymous.4open.science/r/&lt;your‑id&gt;/</a></li>
+        <li><strong>Data:</strong> <a href="#" target="_blank" rel="noopener">anonymous.4open.science/r/&lt;your‑id&gt;/tree/main/data</a></li>
+        <li><strong>Model ckpts:</strong> Add a link to an anonymous storage (e.g., Google Drive with neutral name) if allowed.</li>
+      </ul>
+    </section>
+
+    <section id="bib">
+      <h2>BibTeX</h2>
+      <pre class="bib">@inproceedings{anonymous202Xpaper,
+  title={Attack in Your Pocket: Understanding Security Threats in Mobile LLM Agents},
+  author={Anonymous Authors},
+  booktitle={Proceedings of ...},
+  year={202X},
+  url={https://openreview.net/forum?id=XXXX}
+}
+</pre>
+      <p class="small">Replace with the official BibTeX after acceptance.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p class="small">For questions during review, use the conference discussion forum. Do <em>not</em> reveal identities via email or contact forms.</p>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <span class="badge">Anonymous Project Page Template</span>
+        <span class="small">Built with a single HTML file. You may reuse with attribution after review.</span>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
