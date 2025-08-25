@@ -30,7 +30,7 @@
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
     .small{font-size:14px;color:var(--muted)}
     code, pre{background:#f6f8fa;border:1px solid var(--border);border-radius:10px;padding:12px;overflow:auto}
-    pre{background:#0a0e14;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:12px;overflow:auto}
+    pre{background:#f6f8fa;border:1px solid var(--border);border-radius:10px;padding:12px;overflow:auto;color:#374151}
     footer{border-top:1px solid var(--border);margin-top:40px}
     .footer{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;color:var(--muted)}
     .badge{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid var(--border);font-size:12px;color:#6b7280}
@@ -42,6 +42,44 @@
     .toc a:hover{background:#f1f5f9}
     /* BibTeX block styling – low-contrast, ASBench/HAT style */
     pre.bib{background:#f3f4f6;border:1px solid #eeeeee;border-radius:10px;padding:16px 20px;color:#111827;font-size:15px;line-height:1.7;box-shadow:none}
+    /* Stack teaser over abstract (vertical layout) */
+    #teaser{flex-direction:column;gap:16px}
+    #teaser .col{flex:1 1 auto}
+    /* Fix: stack teaser above abstract without overlap */
+    #teaser{display:block}
+    #teaser .col{display:block;width:100%}
+    #teaser .teaser{margin-bottom:16px}
+    #teaser .card{margin-top:0}
+    /* subtle inline keyword highlight for abstract */
+    mark.k{background:#f1f5f9;border:1px solid var(--border);border-radius:4px;padding:0 .25em;color:inherit;font-weight:600}
+    /* callouts and mild spacing tuned to low-contrast style */
+    .callout{background:#f8fafc;border:1px solid var(--border);border-radius:10px;padding:14px}
+    .klist{margin:8px 0 0;padding-left:18px}
+    .klist li{margin:4px 0}
+    /* Demo description textbox */
+    .textbox{background:#f8fafc;border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin-top:12px}
+    .textbox h3{margin:0 0 6px;font-size:16px;color:var(--text);font-weight:600}
+    .textbox p{margin:0;color:var(--muted)}
+    /* Case Studies carousel (3 images, low-contrast, no deps) */
+    .carousel{position:relative;border:1px solid var(--border);border-radius:12px;background:#f8fafc}
+    .carousel .track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+    .carousel .track::-webkit-scrollbar{display:none}
+    .carousel .slide{flex:0 0 100%;scroll-snap-align:start}
+    .carousel img{display:block;width:100%;height:auto;border-radius:12px}
+    .carousel .nav{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;border-radius:999px;border:1px solid var(--border);background:#ffffff;display:grid;place-items:center;opacity:.9}
+    .carousel .nav:hover{background:#f3f4f6}
+    .carousel .prev{left:8px}
+    .carousel .next{right:8px}
+    @media (max-width:640px){.carousel .nav{display:none}}
+    /* Carousel dots for single case-study slider */
+    .carousel .dots{position:absolute;left:0;right:0;bottom:8px;display:flex;gap:6px;justify-content:center}
+    .carousel .dot{width:6px;height:6px;border-radius:999px;background:#d1d5db;border:1px solid var(--border);opacity:.9}
+    .carousel .dot.active{background:#94a3b8}
+    /* Single stitched-image viewer for Case Study */
+    .case-pan{position:relative;border:1px solid var(--border);border-radius:12px;background:#f8fafc;overflow:auto;padding:8px}
+    .case-pan img{display:block;max-width:none;height:auto}
+    .case-pan.fit img{max-width:100%;width:100%}
+    .case-caption{margin-top:8px;color:var(--muted)}
   </style>
 </head>
 <body>
@@ -59,17 +97,11 @@
       <div class="buttons">
         <a class="btn" href="#" target="_blank" rel="noopener">📄 Paper (OpenReview)</a>
         <a class="btn" href="#" target="_blank" rel="noopener">🧾 arXiv (anon)</a>
-        <a class="btn" href="#code" >💻 Code (anon)</a>
         <a class="btn" href="#bib">🔖 BibTeX</a>
         <a class="btn" href="#demo">▶️ Demo</a>
       </div>
 
-      <nav class="toc">
-        <a href="#abstract">Abstract</a>
-        <a href="#overview">Overview</a>
-        <a href="#results">Results</a>
-        <a href="#artifacts">Artifacts</a>
-      </nav>
+      
     </div>
   </header>
 
@@ -80,34 +112,114 @@
       </div>
       <div class="col card">
         <h2 id="abstract">Abstract</h2>
-        <p>Replace this with your paper abstract. Keep it identical to the PDF. Do not include author names, institutions, or acknowledgements during double‑blind review.</p>
-        <ul class="small">
-          <li>1–2 line highlight of the main finding.</li>
-          <li>One sentence on method / dataset / evaluation.</li>
-        </ul>
+        <div class="abstract"><p>Large Language Models (LLMs) have transformed software development, enabling the creation of AI‑powered applications known as LLM‑based agents. A recent trend brings these capabilities to smartphones through LLM‑powered <mark class="k">mobile AI agents</mark>, which can autonomously perform complex tasks directly on the device. However, the security implications of such agents remain largely unexplored. In this paper, we take an initial step toward a systematic analysis of the <mark class="k">privacy and security threats</mark> faced by mobile AI agents, focusing on <mark class="k">prompt injection attacks</mark>.</p><p>We consider <mark class="k">threat models</mark> specific to mobile deployments, particularly vulnerabilities introduced by common operational practices such as using <mark class="k">screenshots</mark> for perception and <mark class="k">external APIs</mark> for control. Drawing on our experience deploying agents such as <mark class="k">AppAgentX</mark> and <mark class="k">mobile-agent-e</mark> within the <mark class="k">AndroidWorld</mark> environment, we identify seven potential <mark class="k">attack vectors</mark> and discuss practical challenges, including the constraints imposed by system protections and the difficulty for agents to consistently follow prompts when executing complex attacker‑defined tasks. Our findings refine the threat model for <mark class="k">mobile AI agents</mark> and highlight the importance of developing more secure, self‑contained <mark class="k">on-device agents</mark> that reduce the broad attack surfaces inherent in current screenshot‑ and API‑based designs.</p></div>
       </div>
     </section>
 
     <section id="overview">
-      <h2>Overview</h2>
-      <p>Short introduction of your problem, method, and contributions, similar to <em>ASBench</em> and <em>HAT‑Lab</em> pages. Add 1–2 figures below.</p>
+      <h2>Contributions</h2>
+      <ul class="klist small">
+        <li>Introduce a suite of adversarial test cases for <em>mobile LLM agents</em> across seven attack vectors, aligned with MITRE ATT&CK Mobile.</li>
+        <li>Empirical study on widely deployed agents; surface systemic weaknesses and architectural factors.</li>
+        <li>Clarify the mobile <em>lethal trifecta</em> and argue for secure, self‑contained on‑device agents.</li>
+      </ul>
+      <div class="teaser" style="margin-top:12px">Figure placeholder – Mobile agent pipeline (p, d, F)</div>
+    </section>
+
+    <section id="background">
+      <h2>Background</h2>
       <div class="grid">
-        <div class="teaser">Figure placeholder</div>
-        <div class="teaser">Figure placeholder</div>
+        <div class="card">
+          <h3 style="margin-top:0">Mobile AI Agents</h3>
+          <ul class="small klist">
+            <li>Vision‑centric (screenshots)</li>
+            <li>Structure‑centric (accessibility/UI tree)</li>
+            <li>Hybrid (screenshot + structure)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">The “Lethal Trifecta”</h3>
+          <ul class="small klist">
+            <li>Access to rich sensitive data</li>
+            <li>Exposure to untrusted content</li>
+            <li>External communication capability</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section id="results">
-      <h2>Key Results</h2>
+    <section id="threat-model">
+      <h2>Threat Model</h2>
+      <div class="callout small">
+        <p><strong>Adversary goals.</strong> Exfiltrate sensitive data, execute unintended cross‑app actions, or install untrusted software.</p>
+        <p><strong>Capabilities.</strong> Inject prompts via ads, notifications, webviews, emails; leverage agent autonomy to traverse apps.</p>
+        <p><strong>Assumptions.</strong> OS/device uncompromised; user benign; no privileged exploits—attacks proceed via normal channels.</p>
+      </div>
+    </section>
+
+    <section id="vectors">
+      <h2>Attack Vectors</h2>
+      <div class="grid">
+        <div class="card"><h3 style="margin-top:0">Content‑driven Manipulation</h3><p class="small">Injected prompts in ads, emails, or notifications induce leakage or diversions (e.g., OTP harvesting).</p></div>
+        <div class="card"><h3 style="margin-top:0">Cross‑App Data Pivoting</h3><p class="small">Prompt redirects workflow to another app (e.g., Contacts) to extract and exfiltrate data.</p></div>
+        <div class="card"><h3 style="margin-top:0">Malicious App Installation</h3><p class="small">Store‑based installs followed by permission grants establish persistence.</p></div>
+        <div class="card"><h3 style="margin-top:0">Malware Sideloading</h3><p class="small">Out‑of‑store APK download/install, bypassing warnings to gain long‑term control.</p></div>
+      </div>
+      <p class="small" style="margin-top:8px">See Table 2 for MITRE ATT&CK Mobile mapping.</p>
+    </section>
+
+    <section id="cases">
+      <h2>Case Studies</h2>
+      <div class="carousel" id="cases-carousel">
+        <button class="nav prev" type="button" aria-label="Previous">←</button>
+        <div class="track" id="cases-track">
+          <div class="slide"><img src="assets/case1.png" alt="Case study 1 (stitched panels)"></div>
+          <div class="slide"><img src="assets/case2.png" alt="Case study 2 (stitched panels)"></div>
+          <div class="slide"><img src="assets/case3.png" alt="Case study 3 (stitched panels)"></div>
+        </div>
+        <button class="nav next" type="button" aria-label="Next">→</button>
+        <div class="dots" id="cases-dots"></div>
+      </div>
+      <p class="small" style="margin-top:8px">Each slide is a single stitched image (e.g., <code>assets/case1.png</code>). Replace with your panels; swipe on mobile or use arrows on desktop.</p>
+    </section>
+
+    <script>
+      (function(){
+        const track = document.getElementById('cases-track');
+        if(!track) return;
+        const prev = document.querySelector('#cases-carousel .prev');
+        const next = document.querySelector('#cases-carousel .next');
+        const dotsWrap = document.getElementById('cases-dots');
+        const slides = track.querySelectorAll('.slide');
+        // Build dots
+        slides.forEach((_,i)=>{
+          const d=document.createElement('div');d.className='dot'+(i===0?' active':'');
+          d.addEventListener('click',()=>track.scrollTo({left:i*track.clientWidth,behavior:'smooth'}));
+          dotsWrap.appendChild(d);
+        });
+        function syncDots(){ const idx=Math.round(track.scrollLeft/track.clientWidth);[...dotsWrap.children].forEach((e,i)=>e.classList.toggle('active',i===idx)); }
+        track.addEventListener('scroll',()=>{window.requestAnimationFrame(syncDots)});
+        function scrollPage(dir){ track.scrollBy({left: dir * track.clientWidth, behavior:'smooth'}); }
+        prev && prev.addEventListener('click',()=>scrollPage(-1));
+        next && next.addEventListener('click',()=>scrollPage(1));
+      })();
+    </script>
+
+    <section id="evaluation">
+      <h2>Evaluation</h2>
       <div class="grid">
         <div class="card">
-          <h3 style="margin-top:0">Main Table</h3>
-          <p class="small">Insert a PNG/SVG of the main metric table. Add 1–2 bullet takeaways.</p>
-          <ul class="small"><li>Our method improves X by Y% on Z.</li><li>Robust under setting Q.</li></ul>
+          <h3 style="margin-top:0">Metrics</h3>
+          <ul class="small klist"><li><strong>Notice Rate</strong> (perception)</li><li><strong>Attempt Rate</strong> (reasoning)</li><li><strong>Action Rate</strong> (execution)</li></ul>
         </div>
         <div class="card">
-          <h3 style="margin-top:0">Ablations & Visuals</h3>
-          <p class="small">Add ablation chart or qualitative examples.</p>
+          <h3 style="margin-top:0">Backbone LLM Impact</h3>
+<pre class="small" style="margin:0">Model                Noticed  Attempted  Actioned
+GPT‑4.1‑mini         10       8          8
+GPT‑4.1              10       8          8
+Llama‑4‑Maverick     10       7          7
+Gemini‑1.5‑pro       10       0          0</pre>
+          <p class="small" style="margin-top:8px">Placeholder for Table 3 style figure.</p>
         </div>
       </div>
     </section>
@@ -115,6 +227,15 @@
     <section id="demo">
       <h2>Demo (optional)</h2>
       <div class="teaser">Embed a video (YouTube unlisted) or GIF here.</div>
+      <div class="textbox small">
+        <h3>Demo notes</h3>
+        <p>Briefly describe what the demo shows: scenario, agent, steps, expected result, and risks. Keep it to 2–4 lines. Example:</p>
+        <ul class="klist">
+          <li><strong>Scenario:</strong> Ad‑injected prompt in Gmail diverts the agent.</li>
+          <li><strong>Agent:</strong> AppAgentX (AndroidWorld), autonomy on.</li>
+          <li><strong>Outcome:</strong> Agent opens Contacts → copies Dad’s number → drafts email.</li>
+        </ul>
+      </div>
     </section>
 
     <section id="artifacts">
@@ -123,7 +244,6 @@
       <ul>
         <li><strong>Code:</strong> <a href="#" target="_blank" rel="noopener">anonymous.4open.science/r/&lt;your‑id&gt;/</a></li>
         <li><strong>Data:</strong> <a href="#" target="_blank" rel="noopener">anonymous.4open.science/r/&lt;your‑id&gt;/tree/main/data</a></li>
-        <li><strong>Model ckpts:</strong> Add a link to an anonymous storage (e.g., Google Drive with neutral name) if allowed.</li>
       </ul>
     </section>
 
