@@ -80,6 +80,14 @@
     .case-pan img{display:block;max-width:none;height:auto}
     .case-pan.fit img{max-width:100%;width:100%}
     .case-caption{margin-top:8px;color:var(--muted)}
+    /* Force 2×2 layout for Attack Vectors */
+    .grid.two-col{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    @media (max-width:720px){.grid.two-col{grid-template-columns:1fr}}
+    /* Center hero contents (subtitle, pills, authors, buttons) */
+    header.hero .container{text-align:center}
+    header.hero .pill{margin:0 auto}
+    header.hero .authors{justify-content:center}
+    header.hero .buttons{justify-content:center}
   </style>
 </head>
 <body>
@@ -160,7 +168,7 @@
 
     <section id="vectors">
       <h2>Attack Vectors</h2>
-      <div class="grid">
+      <div class="grid two-col">
         <div class="card"><h3 style="margin-top:0">Content‑driven Manipulation</h3><p class="small">Injected prompts in ads, emails, or notifications induce leakage or diversions (e.g., OTP harvesting).</p></div>
         <div class="card"><h3 style="margin-top:0">Cross‑App Data Pivoting</h3><p class="small">Prompt redirects workflow to another app (e.g., Contacts) to extract and exfiltrate data.</p></div>
         <div class="card"><h3 style="margin-top:0">Malicious App Installation</h3><p class="small">Store‑based installs followed by permission grants establish persistence.</p></div>
