@@ -7,45 +7,47 @@
   <meta name="description" content="Project page for a research paper (double‑blind ready)">
   <style>
     :root{
-      --bg:#0b0d12;--panel:#11141b;--muted:#96a0b5;--text:#e8edf7;--accent:#82caff;--accent2:#a7ffda;--card:#0e1218;
+      --bg:#ffffff;--panel:#fafafa;--card:#ffffff;--text:#374151;--muted:#6b7280;--accent:#2563eb;--accent2:#16a34a;--border:#e5e7eb;
       --maxw:1040px;
     }
     *{box-sizing:border-box}
     html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,"Noto Sans",sans-serif}
     a{color:var(--accent);text-decoration:none}
-    a:hover{text-decoration:underline}
+    a:hover{text-decoration:underline;text-underline-offset:2px}
     .container{max-width:var(--maxw);margin:0 auto;padding:24px}
-    header.hero{padding:64px 0;background:radial-gradient(1200px 600px at 50% -10%,rgba(130,202,255,.15),transparent),linear-gradient(180deg,rgba(167,255,218,.08),transparent 60%)}
-    .title{font-size:clamp(28px,5vw,48px);line-height:1.1;margin:0 0 8px;font-weight:800;letter-spacing:.2px}
+    header.hero{padding:56px 0;background:linear-gradient(180deg,#ffffff,#fafafa 85%)}
+    .title{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:0 0 8px;font-weight:700;letter-spacing:0}
     .subtitle{font-size:clamp(16px,2.2vw,20px);color:var(--muted);margin:6px 0 0}
-    .pill{display:inline-flex;gap:8px;align-items:center;background:linear-gradient(135deg,rgba(130,202,255,.15),rgba(167,255,218,.15));border:1px solid rgba(255,255,255,.08);padding:8px 12px;border-radius:999px;font-size:14px;color:#cfe6ff}
+    .pill{display:inline-flex;gap:8px;align-items:center;background:#f5f7fb;border:1px solid var(--border);padding:6px 10px;border-radius:999px;font-size:13px;color:#4b5563}
     .row{display:flex;gap:24px;flex-wrap:wrap}
     .col{flex:1 1 320px}
-    .card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:18px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
     .buttons{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 0}
-    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.10);color:var(--text);font-weight:600}
-    .btn:hover{transform:translateY(-1px);transition:.15s ease}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:10px;background:#ffffff;border:1px solid var(--border);color:var(--text);font-weight:600}
+    .btn:hover{background:#f8fafc;border-color:#d1d5db;transform:none;transition:background .15s ease,border-color .15s ease}
     h2{font-size:clamp(20px,3vw,28px);margin:24px 0 12px}
-    .teaser{width:100%;aspect-ratio:16/9;background:#0a0e14;border:1px dashed rgba(255,255,255,.12);border-radius:16px;display:grid;place-items:center;color:#7f8ba8}
+    .teaser{width:100%;aspect-ratio:16/9;background:#f8fafc;border:1px dashed var(--border);border-radius:12px;display:grid;place-items:center;color:#94a3b8}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
     .small{font-size:14px;color:var(--muted)}
-    code, pre{font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
-    pre{background:#0a0e14;border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:12px;overflow:auto}
-    footer{border-top:1px solid rgba(255,255,255,.08);margin-top:40px}
+    code, pre{background:#f6f8fa;border:1px solid var(--border);border-radius:10px;padding:12px;overflow:auto}
+    pre{background:#0a0e14;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:12px;overflow:auto}
+    footer{border-top:1px solid var(--border);margin-top:40px}
     .footer{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;color:var(--muted)}
-    .badge{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.12);font-size:12px;color:#c9d7ef}
+    .badge{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid var(--border);font-size:12px;color:#6b7280}
     .authors{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 0}
-    .anon{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);padding:2px 8px;border-radius:999px}
+    .anon{background:#f7f7f7;border:1px solid var(--border);padding:2px 8px;border-radius:999px}
     .bib{white-space:pre-wrap}
     .toc{display:flex;gap:16px;flex-wrap:wrap;margin-top:16px}
-    .toc a{color:#cfe6ff;border:1px solid rgba(255,255,255,.1);padding:6px 10px;border-radius:10px;background:rgba(130,202,255,.08)}
-    .toc a:hover{background:rgba(130,202,255,.14)}
+    .toc a{color:#4b5563;border:1px solid var(--border);padding:6px 10px;border-radius:10px;background:#f8fafc}
+    .toc a:hover{background:#f1f5f9}
+    /* BibTeX block styling – low-contrast, ASBench/HAT style */
+    pre.bib{background:#f3f4f6;border:1px solid #eeeeee;border-radius:10px;padding:16px 20px;color:#111827;font-size:15px;line-height:1.7;box-shadow:none}
   </style>
 </head>
 <body>
   <header class="hero">
     <div class="container">
-      <div class="pill">ICLR 202X (Under Double‑Blind Review)</div>
+      <div class="pill">USENIX 202X (Under Double‑Blind Review)</div>
       <h1 class="title">Attack in Your Pocket: Understanding Security Threats in Mobile LLM Agents</h1>
       <p class="subtitle">A study of security threats in mobile LLM agents.</p>
 
