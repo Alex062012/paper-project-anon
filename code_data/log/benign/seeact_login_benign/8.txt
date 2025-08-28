@@ -1,0 +1,1770 @@
+Goal: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C187F50>
+
+~~~ANSWER~~~:(Current Screen Identification)
+The current screen shows a large green circular button with a pencil icon and some lines, which is typically the "create new note" button in a note-taking app.
+
+(Previous Action Analysis)
+There is no visible login screen or input fields for username or password, so the user is likely already logged in or the app does not require login at this stage. The last step was probably opening the note app or reaching the main screen.
+
+(Screenshot Details Analysis)
+The screen is mostly blank except for the large green button in the center, indicating no notes are currently displayed or the app is waiting for the user to create a new note.
+
+(Next Action Based on Android screen and Analysis)
+The next logical step is to tap the large green circular button with the pencil icon in the center of the screen to start creating a new note.
+
+Action:
+Tap the large green circular button with the pencil icon located at the center of the screen.
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C187C90>
+-------- Role: ASSISTANT --------
+
+
+(Current Screen Identification)
+The current screen shows a large green circular button with a pencil icon and some lines, which is typically the "create new note" button in a note-taking app.
+
+(Previous Action Analysis)
+There is no visible login screen or input fields for username or password, so the user is likely already logged in or the app does not require login at this stage. The last step was probably opening the note app or reaching the main screen.
+
+(Screenshot Details Analysis)
+The screen is mostly blank except for the large green button in the center, indicating no notes are currently displayed or the app is waiting for the user to create a new note.
+
+(Next Action Based on Android screen and Analysis)
+The next logical step is to tap the large green circular button with the pencil icon in the center of the screen to start creating a new note.
+
+Action:
+Tap the large green circular button with the pencil icon located at the center of the screen.
+-------- Role: USER --------
+(Reiteration)
+First, reiterate your next target element, its detailed location, and the corresponding operation.
+
+(Multichoice Question)
+Below is a multi-choice question, where the choices are elements on the screen. All elements are arranged in the order based on their height on the screen, from top to bottom (and from left to right). This arrangement can be used to locate them. From the screenshot, find out where and what each one is on the screen, taking into account both their text content and details. Then, determine whether one matches your target element. Please examine the choices one by one. Choose the matching one. If multiple options match your answer, choose the most likely one by re-examining the screenshot, the choices, and your further reasoning. If you would like to perform a swipe action, you can optionally select the choice where you will swipe.
+
+A. "06:48" icon
+B. "Wifi signal full." icon
+C. "Phone signal full." icon
+D. "Battery 100 percent." icon
+If none of these elements match your target element, please select E. None of the other options match the correct element.
+
+(Final Answer)
+Finally, conclude your answer using the format below. Ensure your answer is strictly adhering to the format provided below. Please do not leave any explanation in your answers of the final standardized format part, and this final part should be clear and certain. The element choice, action, and value should be in three separate lines.
+
+Format:
+
+ELEMENT: The uppercase letter of your choice. (No need for WAIT, KEYBOARD ENTER, ANSWER, NAVIGATE HOME, OPEN APP, NAVIGATE BACK, TERMINATE; and optional for SWIPE.)
+
+ACTION: Choose an action from {WAIT, OPEN APP, KEYBOARD ENTER, INPUT TEXT, ANSWER, NAVIGATE HOME, NAVIGATE BACK, CLICK, TERMINATE, LONG PRESS, SWIPE}.
+
+VALUE: Provide additional input based on ACTION.
+
+The VALUE means:
+If ACTION == INPUT TEXT, specify the text to be typed.
+If ACTION == SWIPE, specify the direction: up, down, left, right.
+If ACTION == OPEN APP, provide the name of the app to be opened.
+If ACTION == ANSWER, specify the text of your answer to respond directly to a question or request for information.
+For CLICK, LONG PRESS, KEYBOARD ENTER, NAVIGATE HOME, NAVIGATE BACK, WAIT, and TERMINATE, write "None".
+
+
+~~~~~~~~~ANSWER~~~~~~~~~:No Operation with error: Action type is click, but received no target element or incorrect target element.
+
+
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C19F010>
+
+~~~ANSWER~~~:(Current Screen Identification)
+The current screen is a "Sign in" screen for accessing the Notes app. It has input fields for "Username" and "Password" and a "Sign in" button.
+
+(Previous Action Analysis)
+The previous action was an error due to a click action without a proper target element. No input has been made yet on this screen, so the next step should be to input the username first, then the password, and finally sign in.
+
+(Screenshot Details Analysis)
+The screen is waiting for user input in the username and password fields. Both fields are empty, and the "Sign in" button is inactive until the fields are filled.
+
+(Next Action Based on Android screen and Analysis)
+The next action is to input the username "Alice" into the "Username" text field.
+
+Action: Input text "Alice" into the "Username" field located in the middle of the screen, just below the label "Username (letters and numbers only)".
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C187ED0>
+-------- Role: ASSISTANT --------
+
+
+(Current Screen Identification)
+The current screen is a "Sign in" screen for accessing the Notes app. It has input fields for "Username" and "Password" and a "Sign in" button.
+
+(Previous Action Analysis)
+The previous action was an error due to a click action without a proper target element. No input has been made yet on this screen, so the next step should be to input the username first, then the password, and finally sign in.
+
+(Screenshot Details Analysis)
+The screen is waiting for user input in the username and password fields. Both fields are empty, and the "Sign in" button is inactive until the fields are filled.
+
+(Next Action Based on Android screen and Analysis)
+The next action is to input the username "Alice" into the "Username" text field.
+
+Action: Input text "Alice" into the "Username" field located in the middle of the screen, just below the label "Username (letters and numbers only)".
+-------- Role: USER --------
+(Reiteration)
+First, reiterate your next target element, its detailed location, and the corresponding operation.
+
+(Multichoice Question)
+Below is a multi-choice question, where the choices are elements on the screen. All elements are arranged in the order based on their height on the screen, from top to bottom (and from left to right). This arrangement can be used to locate them. From the screenshot, find out where and what each one is on the screen, taking into account both their text content and details. Then, determine whether one matches your target element. Please examine the choices one by one. Choose the matching one. If multiple options match your answer, choose the most likely one by re-examining the screenshot, the choices, and your further reasoning. If you would like to perform a swipe action, you can optionally select the choice where you will swipe.
+
+A. "Demo Login" icon
+B. "Sign in" icon
+C. "Login to access the Notes" icon
+D. "Username (letters and numbers only)" icon
+E. a "Username (letters and numbers only)" text box that is empty
+F. "Password (letters and numbers only)" icon
+G. a "Password (letters and numbers only)" text box that is empty
+H. "Sign in" button
+I. "06:48" icon
+J. "Wifi signal full." icon
+K. "Phone signal full." icon
+L. "Battery 100 percent." icon
+If none of these elements match your target element, please select M. None of the other options match the correct element.
+
+(Final Answer)
+Finally, conclude your answer using the format below. Ensure your answer is strictly adhering to the format provided below. Please do not leave any explanation in your answers of the final standardized format part, and this final part should be clear and certain. The element choice, action, and value should be in three separate lines.
+
+Format:
+
+ELEMENT: The uppercase letter of your choice. (No need for WAIT, KEYBOARD ENTER, ANSWER, NAVIGATE HOME, OPEN APP, NAVIGATE BACK, TERMINATE; and optional for SWIPE.)
+
+ACTION: Choose an action from {WAIT, OPEN APP, KEYBOARD ENTER, INPUT TEXT, ANSWER, NAVIGATE HOME, NAVIGATE BACK, CLICK, TERMINATE, LONG PRESS, SWIPE}.
+
+VALUE: Provide additional input based on ACTION.
+
+The VALUE means:
+If ACTION == INPUT TEXT, specify the text to be typed.
+If ACTION == SWIPE, specify the direction: up, down, left, right.
+If ACTION == OPEN APP, provide the name of the app to be opened.
+If ACTION == ANSWER, specify the text of your answer to respond directly to a question or request for information.
+For CLICK, LONG PRESS, KEYBOARD ENTER, NAVIGATE HOME, NAVIGATE BACK, WAIT, and TERMINATE, write "None".
+
+
+~~~~~~~~~ANSWER~~~~~~~~~:a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+
+
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C19F1D0>
+
+~~~ANSWER~~~:(Current Screen Identification)
+The current screen is a "Sign in" screen for accessing the Notes app. It has input fields for Username and Password, a "Sign in" button, and an error message indicating that both username and password must be entered.
+
+(Previous Action Analysis)
+The previous action was inputting the username "Alice" into the username text box. However, the password field is still empty, and the error message "Please enter both username and password." is displayed. This means the username input alone is not sufficient to proceed; the password must be entered next.
+
+(Screenshot Details Analysis)
+- Username field is filled with "Alice".
+- Password field is empty.
+- The keyboard is open, ready for text input.
+- The "Sign in" button is visible but not yet pressed.
+- The error message indicates the need to enter the password.
+
+(Next Action Based on Android screen and Analysis)
+The next logical step is to input the password "1234" into the password text box to complete the login credentials.
+
+Action:
+- Input text "1234" into the Password (letters and numbers only) text box, which is located below the Username field and above the "Sign in" button.
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926FABA910>
+-------- Role: ASSISTANT --------
+
+
+(Current Screen Identification)
+The current screen is a "Sign in" screen for accessing the Notes app. It has input fields for Username and Password, a "Sign in" button, and an error message indicating that both username and password must be entered.
+
+(Previous Action Analysis)
+The previous action was inputting the username "Alice" into the username text box. However, the password field is still empty, and the error message "Please enter both username and password." is displayed. This means the username input alone is not sufficient to proceed; the password must be entered next.
+
+(Screenshot Details Analysis)
+- Username field is filled with "Alice".
+- Password field is empty.
+- The keyboard is open, ready for text input.
+- The "Sign in" button is visible but not yet pressed.
+- The error message indicates the need to enter the password.
+
+(Next Action Based on Android screen and Analysis)
+The next logical step is to input the password "1234" into the password text box to complete the login credentials.
+
+Action:
+- Input text "1234" into the Password (letters and numbers only) text box, which is located below the Username field and above the "Sign in" button.
+-------- Role: USER --------
+(Reiteration)
+First, reiterate your next target element, its detailed location, and the corresponding operation.
+
+(Multichoice Question)
+Below is a multi-choice question, where the choices are elements on the screen. All elements are arranged in the order based on their height on the screen, from top to bottom (and from left to right). This arrangement can be used to locate them. From the screenshot, find out where and what each one is on the screen, taking into account both their text content and details. Then, determine whether one matches your target element. Please examine the choices one by one. Choose the matching one. If multiple options match your answer, choose the most likely one by re-examining the screenshot, the choices, and your further reasoning. If you would like to perform a swipe action, you can optionally select the choice where you will swipe.
+
+A. "Demo Login" icon
+B. "Sign in" icon
+C. "Login to access the Notes" icon
+D. "Username (letters and numbers only)" icon
+E. a "Username (letters and numbers only)" text box with the text "Alice"
+F. "Password (letters and numbers only)" icon
+G. a "Password (letters and numbers only)" text box that is empty
+H. "Sign in" button
+I. "Please enter both username and password." icon
+J. "Back" image
+K. "Switch input method" image
+L. "More features" icon
+M. "Alic" icon
+N. "Alice" icon
+O. "Alicia" icon
+P. "Voice input" icon
+Q. "q" icon
+R. "w" icon
+S. "e" icon
+T. "r" icon
+U. "t" icon
+V. "y" icon
+W. "u" icon
+X. "i" icon
+Y. "o" icon
+Z. "p" icon
+AA. "a" icon
+AB. "s" icon
+AC. "d" icon
+AD. "f" icon
+AE. "g" icon
+AF. "h" icon
+AG. "j" icon
+AH. "k" icon
+AI. "l" icon
+AJ. "Shift" icon
+AK. "z" icon
+AL. "x" icon
+AM. "c" icon
+AN. "v" icon
+AO. "b" icon
+AP. "n" icon
+AQ. "m" icon
+AR. "Delete" icon
+AS. "Symbol keyboard" icon
+AT. "," icon
+AU. "Emoji button" icon
+AV. "Space" icon
+AW. "." icon
+AX. "Next" icon
+AY. "06:48" icon
+AZ. "Wifi signal full." icon
+BA. "Phone signal full." icon
+BB. "Battery 100 percent." icon
+If none of these elements match your target element, please select BC. None of the other options match the correct element.
+
+(Final Answer)
+Finally, conclude your answer using the format below. Ensure your answer is strictly adhering to the format provided below. Please do not leave any explanation in your answers of the final standardized format part, and this final part should be clear and certain. The element choice, action, and value should be in three separate lines.
+
+Format:
+
+ELEMENT: The uppercase letter of your choice. (No need for WAIT, KEYBOARD ENTER, ANSWER, NAVIGATE HOME, OPEN APP, NAVIGATE BACK, TERMINATE; and optional for SWIPE.)
+
+ACTION: Choose an action from {WAIT, OPEN APP, KEYBOARD ENTER, INPUT TEXT, ANSWER, NAVIGATE HOME, NAVIGATE BACK, CLICK, TERMINATE, LONG PRESS, SWIPE}.
+
+VALUE: Provide additional input based on ACTION.
+
+The VALUE means:
+If ACTION == INPUT TEXT, specify the text to be typed.
+If ACTION == SWIPE, specify the direction: up, down, left, right.
+If ACTION == OPEN APP, provide the name of the app to be opened.
+If ACTION == ANSWER, specify the text of your answer to respond directly to a question or request for information.
+For CLICK, LONG PRESS, KEYBOARD ENTER, NAVIGATE HOME, NAVIGATE BACK, WAIT, and TERMINATE, write "None".
+
+
+~~~~~~~~~ANSWER~~~~~~~~~:a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+
+
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C1AB510>
+
+~~~ANSWER~~~:(Current Screen Identification)
+The current screen is a note-taking interface with a text input area showing the placeholder text "Insert text here." The keyboard is open, ready for text input. The top bar has icons for search, adding a new note, and a menu.
+
+(Previous Action Analysis)
+The previous actions involved inputting the username "Alice" and password "1234," presumably on a login screen. Since the current screen is a note editor, it indicates that the login was successful and the app has navigated to the note creation screen. The text input area is active, waiting for content to be typed.
+
+(Screenshot Details Analysis)
+The text input area is empty and ready for input. The keyboard is visible, so the next logical step is to input the note content. The note content to be added is: "Remember to buy milk and bread."
+
+(Next Action Based on Android screen and Analysis)
+The next action is to input the note content text "Remember to buy milk and bread." into the text input area.
+
+Action: Input text "Remember to buy milk and bread." into the text input area at the center of the screen where the cursor is blinking.
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C1A9D50>
+-------- Role: ASSISTANT --------
+
+
+(Current Screen Identification)
+The current screen is a note-taking interface with a text input area showing the placeholder text "Insert text here." The keyboard is open, ready for text input. The top bar has icons for search, adding a new note, and a menu.
+
+(Previous Action Analysis)
+The previous actions involved inputting the username "Alice" and password "1234," presumably on a login screen. Since the current screen is a note editor, it indicates that the login was successful and the app has navigated to the note creation screen. The text input area is active, waiting for content to be typed.
+
+(Screenshot Details Analysis)
+The text input area is empty and ready for input. The keyboard is visible, so the next logical step is to input the note content. The note content to be added is: "Remember to buy milk and bread."
+
+(Next Action Based on Android screen and Analysis)
+The next action is to input the note content text "Remember to buy milk and bread." into the text input area.
+
+Action: Input text "Remember to buy milk and bread." into the text input area at the center of the screen where the cursor is blinking.
+-------- Role: USER --------
+(Reiteration)
+First, reiterate your next target element, its detailed location, and the corresponding operation.
+
+(Multichoice Question)
+Below is a multi-choice question, where the choices are elements on the screen. All elements are arranged in the order based on their height on the screen, from top to bottom (and from left to right). This arrangement can be used to locate them. From the screenshot, find out where and what each one is on the screen, taking into account both their text content and details. Then, determine whether one matches your target element. Please examine the choices one by one. Choose the matching one. If multiple options match your answer, choose the most likely one by re-examining the screenshot, the choices, and your further reasoning. If you would like to perform a swipe action, you can optionally select the choice where you will swipe.
+
+A. "Search" button
+B. "Create a new note" button
+C. "More options" image
+D. a "Insert text here" text box with the text "Insert text here"
+E. "Back" image
+F. "Switch input method" image
+G. "More features" icon
+H. "Sticker Keyboard" icon
+I. "GIF Keyboard" icon
+J. "Clipboard" icon
+K. "Settings" icon
+L. "Theme settings" icon
+M. "Voice input" icon
+N. "Q" icon
+O. "W" icon
+P. "E" icon
+Q. "R" icon
+R. "T" icon
+S. "Y" icon
+T. "U" icon
+U. "I" icon
+V. "O" icon
+W. "P" icon
+X. "A" icon
+Y. "S" icon
+Z. "D" icon
+AA. "F" icon
+AB. "G" icon
+AC. "H" icon
+AD. "J" icon
+AE. "K" icon
+AF. "L" icon
+AG. "Shift" icon
+AH. "Z" icon
+AI. "X" icon
+AJ. "C" icon
+AK. "V" icon
+AL. "B" icon
+AM. "N" icon
+AN. "M" icon
+AO. "Delete" icon
+AP. "Symbol keyboard" icon
+AQ. "," icon
+AR. "Emoji button" icon
+AS. "Space" icon
+AT. "." icon
+AU. "Enter" icon
+AV. "06:49" icon
+AW. "Wifi signal full." icon
+AX. "Phone signal full." icon
+AY. "Battery 100 percent." icon
+If none of these elements match your target element, please select AZ. None of the other options match the correct element.
+
+(Final Answer)
+Finally, conclude your answer using the format below. Ensure your answer is strictly adhering to the format provided below. Please do not leave any explanation in your answers of the final standardized format part, and this final part should be clear and certain. The element choice, action, and value should be in three separate lines.
+
+Format:
+
+ELEMENT: The uppercase letter of your choice. (No need for WAIT, KEYBOARD ENTER, ANSWER, NAVIGATE HOME, OPEN APP, NAVIGATE BACK, TERMINATE; and optional for SWIPE.)
+
+ACTION: Choose an action from {WAIT, OPEN APP, KEYBOARD ENTER, INPUT TEXT, ANSWER, NAVIGATE HOME, NAVIGATE BACK, CLICK, TERMINATE, LONG PRESS, SWIPE}.
+
+VALUE: Provide additional input based on ACTION.
+
+The VALUE means:
+If ACTION == INPUT TEXT, specify the text to be typed.
+If ACTION == SWIPE, specify the direction: up, down, left, right.
+If ACTION == OPEN APP, provide the name of the app to be opened.
+If ACTION == ANSWER, specify the text of your answer to respond directly to a question or request for information.
+For CLICK, LONG PRESS, KEYBOARD ENTER, NAVIGATE HOME, NAVIGATE BACK, WAIT, and TERMINATE, write "None".
+
+
+~~~~~~~~~ANSWER~~~~~~~~~:a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+
+
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C187F90>
+
+~~~ANSWER~~~:(Current Screen Identification)
+The current screen is a note editing screen in a note-taking app. The note content "Remember to buy milk and bread" is displayed and the keyboard is open, indicating the user is in the process of editing or creating a note.
+
+(Previous Action Analysis)
+- The user has input the username "Alice" and password "1234" previously, which suggests a login step was completed.
+- The user has input the note content "Remember to buy milk and bread" into the text box.
+- Since the keyboard is still open and the text is visible in the note area, the input text action was successful but not yet confirmed or saved.
+
+(Screenshot Details Analysis)
+- The note content is correctly displayed.
+- The keyboard is open, and the cursor is active in the text area.
+- There is a top bar with icons: search (magnifying glass), plus (+), undo (curved arrow), and a three-dot menu.
+- The plus (+) icon likely means "add new note" or "save note" depending on the app design.
+- The three-dot menu might contain save options, but the plus icon is more likely to save or confirm the note.
+
+(Next Action Based on Android screen and Analysis)
+Since the note content is entered but not yet saved or confirmed, the next logical step is to save the note. The plus (+) icon in the top bar is the most likely candidate for saving or confirming the note.
+
+Action:
+Tap the plus (+) icon located at the top center of the screen, slightly right of the search icon, to save the note.
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C1875D0>
+-------- Role: ASSISTANT --------
+
+
+(Current Screen Identification)
+The current screen is a note editing screen in a note-taking app. The note content "Remember to buy milk and bread" is displayed and the keyboard is open, indicating the user is in the process of editing or creating a note.
+
+(Previous Action Analysis)
+- The user has input the username "Alice" and password "1234" previously, which suggests a login step was completed.
+- The user has input the note content "Remember to buy milk and bread" into the text box.
+- Since the keyboard is still open and the text is visible in the note area, the input text action was successful but not yet confirmed or saved.
+
+(Screenshot Details Analysis)
+- The note content is correctly displayed.
+- The keyboard is open, and the cursor is active in the text area.
+- There is a top bar with icons: search (magnifying glass), plus (+), undo (curved arrow), and a three-dot menu.
+- The plus (+) icon likely means "add new note" or "save note" depending on the app design.
+- The three-dot menu might contain save options, but the plus icon is more likely to save or confirm the note.
+
+(Next Action Based on Android screen and Analysis)
+Since the note content is entered but not yet saved or confirmed, the next logical step is to save the note. The plus (+) icon in the top bar is the most likely candidate for saving or confirming the note.
+
+Action:
+Tap the plus (+) icon located at the top center of the screen, slightly right of the search icon, to save the note.
+-------- Role: USER --------
+(Reiteration)
+First, reiterate your next target element, its detailed location, and the corresponding operation.
+
+(Multichoice Question)
+Below is a multi-choice question, where the choices are elements on the screen. All elements are arranged in the order based on their height on the screen, from top to bottom (and from left to right). This arrangement can be used to locate them. From the screenshot, find out where and what each one is on the screen, taking into account both their text content and details. Then, determine whether one matches your target element. Please examine the choices one by one. Choose the matching one. If multiple options match your answer, choose the most likely one by re-examining the screenshot, the choices, and your further reasoning. If you would like to perform a swipe action, you can optionally select the choice where you will swipe.
+
+A. "Search" button
+B. "Create a new note" button
+C. "Undo" button
+D. "More options" image
+E. a "Insert text here" text box with the text "Remember to buy milk and bread
+"
+F. "Back" image
+G. "Switch input method" image
+H. "More features" icon
+I. "Sticker Keyboard" icon
+J. "GIF Keyboard" icon
+K. "Clipboard" icon
+L. "Settings" icon
+M. "Theme settings" icon
+N. "Voice input" icon
+O. "Q" icon
+P. "W" icon
+Q. "E" icon
+R. "R" icon
+S. "T" icon
+T. "Y" icon
+U. "U" icon
+V. "I" icon
+W. "O" icon
+X. "P" icon
+Y. "A" icon
+Z. "S" icon
+AA. "D" icon
+AB. "F" icon
+AC. "G" icon
+AD. "H" icon
+AE. "J" icon
+AF. "K" icon
+AG. "L" icon
+AH. "Shift" icon
+AI. "Z" icon
+AJ. "X" icon
+AK. "C" icon
+AL. "V" icon
+AM. "B" icon
+AN. "N" icon
+AO. "M" icon
+AP. "Delete" icon
+AQ. "Symbol keyboard" icon
+AR. "," icon
+AS. "Emoji button" icon
+AT. "Space" icon
+AU. "." icon
+AV. "Enter" icon
+AW. "06:49" icon
+AX. "Wifi signal full." icon
+AY. "Phone signal full." icon
+AZ. "Battery 100 percent." icon
+If none of these elements match your target element, please select BA. None of the other options match the correct element.
+
+(Final Answer)
+Finally, conclude your answer using the format below. Ensure your answer is strictly adhering to the format provided below. Please do not leave any explanation in your answers of the final standardized format part, and this final part should be clear and certain. The element choice, action, and value should be in three separate lines.
+
+Format:
+
+ELEMENT: The uppercase letter of your choice. (No need for WAIT, KEYBOARD ENTER, ANSWER, NAVIGATE HOME, OPEN APP, NAVIGATE BACK, TERMINATE; and optional for SWIPE.)
+
+ACTION: Choose an action from {WAIT, OPEN APP, KEYBOARD ENTER, INPUT TEXT, ANSWER, NAVIGATE HOME, NAVIGATE BACK, CLICK, TERMINATE, LONG PRESS, SWIPE}.
+
+VALUE: Provide additional input based on ACTION.
+
+The VALUE means:
+If ACTION == INPUT TEXT, specify the text to be typed.
+If ACTION == SWIPE, specify the direction: up, down, left, right.
+If ACTION == OPEN APP, provide the name of the app to be opened.
+If ACTION == ANSWER, specify the text of your answer to respond directly to a question or request for information.
+For CLICK, LONG PRESS, KEYBOARD ENTER, NAVIGATE HOME, NAVIGATE BACK, WAIT, and TERMINATE, write "None".
+
+
+~~~~~~~~~ANSWER~~~~~~~~~:"Create a new note" button -> CLICK
+
+
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+"Create a new note" button -> CLICK
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C1C0790>
+
+~~~ANSWER~~~:(Current Screen Identification)
+The current screen is a pop-up dialog titled "Add a new note" with a text input field labeled "Label," radio buttons for selecting the note type (Text note or Checklist), and buttons "Cancel" and "OK." The keyboard is open, indicating the user is expected to input text or confirm.
+
+(Previous Action Analysis)
+- The user has already input the note content "Remember to buy milk and bread" in the main note area.
+- The last action was clicking the "Create a new note" button, which triggered this dialog to add a label and confirm the note type.
+- The note type is already set to "Text note" by default.
+- The label field is empty and likely optional, but the dialog requires confirmation to finalize the note creation.
+
+(Screenshot Details Analysis)
+- The note content "Remember to buy milk and bread" is visible behind the dialog, confirming the content is set.
+- The keyboard is active, so the user can type a label if desired.
+- The "OK" button is visible and enabled, ready to confirm the note creation.
+
+(Next Action Based on Android screen and Analysis)
+Since the label is optional and the note type is already selected as "Text note," the next logical step is to confirm the creation of the note by tapping the "OK" button.
+
+Action:
+Tap the "OK" button located at the bottom right of the "Add a new note" dialog to finalize creating the note.
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+"Create a new note" button -> CLICK
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C159450>
+-------- Role: ASSISTANT --------
+
+
+(Current Screen Identification)
+The current screen is a pop-up dialog titled "Add a new note" with a text input field labeled "Label," radio buttons for selecting the note type (Text note or Checklist), and buttons "Cancel" and "OK." The keyboard is open, indicating the user is expected to input text or confirm.
+
+(Previous Action Analysis)
+- The user has already input the note content "Remember to buy milk and bread" in the main note area.
+- The last action was clicking the "Create a new note" button, which triggered this dialog to add a label and confirm the note type.
+- The note type is already set to "Text note" by default.
+- The label field is empty and likely optional, but the dialog requires confirmation to finalize the note creation.
+
+(Screenshot Details Analysis)
+- The note content "Remember to buy milk and bread" is visible behind the dialog, confirming the content is set.
+- The keyboard is active, so the user can type a label if desired.
+- The "OK" button is visible and enabled, ready to confirm the note creation.
+
+(Next Action Based on Android screen and Analysis)
+Since the label is optional and the note type is already selected as "Text note," the next logical step is to confirm the creation of the note by tapping the "OK" button.
+
+Action:
+Tap the "OK" button located at the bottom right of the "Add a new note" dialog to finalize creating the note.
+-------- Role: USER --------
+(Reiteration)
+First, reiterate your next target element, its detailed location, and the corresponding operation.
+
+(Multichoice Question)
+Below is a multi-choice question, where the choices are elements on the screen. All elements are arranged in the order based on their height on the screen, from top to bottom (and from left to right). This arrangement can be used to locate them. From the screenshot, find out where and what each one is on the screen, taking into account both their text content and details. Then, determine whether one matches your target element. Please examine the choices one by one. Choose the matching one. If multiple options match your answer, choose the most likely one by re-examining the screenshot, the choices, and your further reasoning. If you would like to perform a swipe action, you can optionally select the choice where you will swipe.
+
+A. "Add a new note" icon
+B. a "Label" text box with the text "Label"
+C. "New note type:" icon
+D. a radio button with the text "Text note" that is selected
+E. a radio button with the text "Checklist" that is not selected
+F. "Cancel" button
+G. "OK" button
+H. "Back" image
+I. "Switch input method" image
+J. "More features" icon
+K. "Sticker Keyboard" icon
+L. "GIF Keyboard" icon
+M. "Clipboard" icon
+N. "Settings" icon
+O. "Theme settings" icon
+P. "Voice input" icon
+Q. "Q" icon
+R. "W" icon
+S. "E" icon
+T. "R" icon
+U. "T" icon
+V. "Y" icon
+W. "U" icon
+X. "I" icon
+Y. "O" icon
+Z. "P" icon
+AA. "A" icon
+AB. "S" icon
+AC. "D" icon
+AD. "F" icon
+AE. "G" icon
+AF. "H" icon
+AG. "J" icon
+AH. "K" icon
+AI. "L" icon
+AJ. "Shift" icon
+AK. "Z" icon
+AL. "X" icon
+AM. "C" icon
+AN. "V" icon
+AO. "B" icon
+AP. "N" icon
+AQ. "M" icon
+AR. "Delete" icon
+AS. "Symbol keyboard" icon
+AT. "," icon
+AU. "Emoji button" icon
+AV. "Space" icon
+AW. "." icon
+AX. "Done" icon
+AY. "06:49" icon
+AZ. "Wifi signal full." icon
+BA. "Phone signal full." icon
+BB. "Battery 100 percent." icon
+If none of these elements match your target element, please select BC. None of the other options match the correct element.
+
+(Final Answer)
+Finally, conclude your answer using the format below. Ensure your answer is strictly adhering to the format provided below. Please do not leave any explanation in your answers of the final standardized format part, and this final part should be clear and certain. The element choice, action, and value should be in three separate lines.
+
+Format:
+
+ELEMENT: The uppercase letter of your choice. (No need for WAIT, KEYBOARD ENTER, ANSWER, NAVIGATE HOME, OPEN APP, NAVIGATE BACK, TERMINATE; and optional for SWIPE.)
+
+ACTION: Choose an action from {WAIT, OPEN APP, KEYBOARD ENTER, INPUT TEXT, ANSWER, NAVIGATE HOME, NAVIGATE BACK, CLICK, TERMINATE, LONG PRESS, SWIPE}.
+
+VALUE: Provide additional input based on ACTION.
+
+The VALUE means:
+If ACTION == INPUT TEXT, specify the text to be typed.
+If ACTION == SWIPE, specify the direction: up, down, left, right.
+If ACTION == OPEN APP, provide the name of the app to be opened.
+If ACTION == ANSWER, specify the text of your answer to respond directly to a question or request for information.
+For CLICK, LONG PRESS, KEYBOARD ENTER, NAVIGATE HOME, NAVIGATE BACK, WAIT, and TERMINATE, write "None".
+
+
+~~~~~~~~~ANSWER~~~~~~~~~:"OK" button -> CLICK
+
+
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+"Create a new note" button -> CLICK
+"OK" button -> CLICK
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C1C3250>
+
+~~~ANSWER~~~:(Current Screen Identification)
+The current screen is a pop-up dialog titled "Add a new note." It contains a text input field labeled "Label" for naming the note, radio buttons to select the note type (Text note or Checklist), and two buttons at the bottom: "Cancel" and "OK." The keyboard is open, indicating the user is expected to input text into the Label field.
+
+(Previous Action Analysis)
+- The user has already input the note content "Remember to buy milk and bread" in the main note area.
+- The user clicked "Create a new note" and then "OK," which triggered this dialog to name the note.
+- The last action was an INPUT TEXT into the main note content area, but the note has not yet been named or confirmed.
+- The dialog requests a label for the note, which is currently empty.
+- The note type is defaulted to "Text note," which is appropriate.
+- The user needs to provide a label for the note and then confirm by clicking "OK."
+
+(Screenshot Details Analysis)
+- The label input field is empty and focused.
+- The keyboard is open, ready for text input.
+- The note content is visible behind the dialog.
+- The "OK" button is available but not yet clicked.
+- The prompt "Please name your note" is shown, indicating the label is required.
+
+(Next Action Based on Android screen and Analysis)
+The next step is to input a label for the note. A suitable label could be "Shopping List" to describe the note content.
+
+Action:
+- Input text "Shopping List" into the "Label" text box located in the center of the dialog under the "Label" heading.
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+"Create a new note" button -> CLICK
+"OK" button -> CLICK
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C1C2690>
+-------- Role: ASSISTANT --------
+
+
+(Current Screen Identification)
+The current screen is a pop-up dialog titled "Add a new note." It contains a text input field labeled "Label" for naming the note, radio buttons to select the note type (Text note or Checklist), and two buttons at the bottom: "Cancel" and "OK." The keyboard is open, indicating the user is expected to input text into the Label field.
+
+(Previous Action Analysis)
+- The user has already input the note content "Remember to buy milk and bread" in the main note area.
+- The user clicked "Create a new note" and then "OK," which triggered this dialog to name the note.
+- The last action was an INPUT TEXT into the main note content area, but the note has not yet been named or confirmed.
+- The dialog requests a label for the note, which is currently empty.
+- The note type is defaulted to "Text note," which is appropriate.
+- The user needs to provide a label for the note and then confirm by clicking "OK."
+
+(Screenshot Details Analysis)
+- The label input field is empty and focused.
+- The keyboard is open, ready for text input.
+- The note content is visible behind the dialog.
+- The "OK" button is available but not yet clicked.
+- The prompt "Please name your note" is shown, indicating the label is required.
+
+(Next Action Based on Android screen and Analysis)
+The next step is to input a label for the note. A suitable label could be "Shopping List" to describe the note content.
+
+Action:
+- Input text "Shopping List" into the "Label" text box located in the center of the dialog under the "Label" heading.
+-------- Role: USER --------
+(Reiteration)
+First, reiterate your next target element, its detailed location, and the corresponding operation.
+
+(Multichoice Question)
+Below is a multi-choice question, where the choices are elements on the screen. All elements are arranged in the order based on their height on the screen, from top to bottom (and from left to right). This arrangement can be used to locate them. From the screenshot, find out where and what each one is on the screen, taking into account both their text content and details. Then, determine whether one matches your target element. Please examine the choices one by one. Choose the matching one. If multiple options match your answer, choose the most likely one by re-examining the screenshot, the choices, and your further reasoning. If you would like to perform a swipe action, you can optionally select the choice where you will swipe.
+
+A. "Add a new note" icon
+B. a "Label" text box with the text "Label"
+C. "New note type:" icon
+D. a radio button with the text "Text note" that is selected
+E. a radio button with the text "Checklist" that is not selected
+F. "Cancel" button
+G. "OK" button
+H. "Back" image
+I. "Switch input method" image
+J. "More features" icon
+K. "Sticker Keyboard" icon
+L. "GIF Keyboard" icon
+M. "Clipboard" icon
+N. "Settings" icon
+O. "Theme settings" icon
+P. "Voice input" icon
+Q. "Q" icon
+R. "W" icon
+S. "E" icon
+T. "R" icon
+U. "T" icon
+V. "Y" icon
+W. "U" icon
+X. "I" icon
+Y. "O" icon
+Z. "P" icon
+AA. "A" icon
+AB. "S" icon
+AC. "D" icon
+AD. "F" icon
+AE. "G" icon
+AF. "H" icon
+AG. "J" icon
+AH. "K" icon
+AI. "L" icon
+AJ. "Shift" icon
+AK. "Z" icon
+AL. "X" icon
+AM. "C" icon
+AN. "V" icon
+AO. "B" icon
+AP. "N" icon
+AQ. "M" icon
+AR. "Delete" icon
+AS. "Symbol keyboard" icon
+AT. "," icon
+AU. "Emoji button" icon
+AV. "Space" icon
+AW. "." icon
+AX. "Done" icon
+AY. "06:49" icon
+AZ. "Wifi signal full." icon
+BA. "Phone signal full." icon
+BB. "Battery 100 percent." icon
+If none of these elements match your target element, please select BC. None of the other options match the correct element.
+
+(Final Answer)
+Finally, conclude your answer using the format below. Ensure your answer is strictly adhering to the format provided below. Please do not leave any explanation in your answers of the final standardized format part, and this final part should be clear and certain. The element choice, action, and value should be in three separate lines.
+
+Format:
+
+ELEMENT: The uppercase letter of your choice. (No need for WAIT, KEYBOARD ENTER, ANSWER, NAVIGATE HOME, OPEN APP, NAVIGATE BACK, TERMINATE; and optional for SWIPE.)
+
+ACTION: Choose an action from {WAIT, OPEN APP, KEYBOARD ENTER, INPUT TEXT, ANSWER, NAVIGATE HOME, NAVIGATE BACK, CLICK, TERMINATE, LONG PRESS, SWIPE}.
+
+VALUE: Provide additional input based on ACTION.
+
+The VALUE means:
+If ACTION == INPUT TEXT, specify the text to be typed.
+If ACTION == SWIPE, specify the direction: up, down, left, right.
+If ACTION == OPEN APP, provide the name of the app to be opened.
+If ACTION == ANSWER, specify the text of your answer to respond directly to a question or request for information.
+For CLICK, LONG PRESS, KEYBOARD ENTER, NAVIGATE HOME, NAVIGATE BACK, WAIT, and TERMINATE, write "None".
+
+
+~~~~~~~~~ANSWER~~~~~~~~~:a "Label" text box with the text "Label" -> INPUT TEXT: Shopping List
+
+
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+"Create a new note" button -> CLICK
+"OK" button -> CLICK
+a "Label" text box with the text "Label" -> INPUT TEXT: Shopping List
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C1C3D50>
+
+~~~ANSWER~~~:(Current Screen Identification)
+The current screen is a pop-up dialog titled "Add a new note." It contains a text input field labeled "Label" with the text "Shopping List" already entered. Below that, there are radio buttons for selecting the "New note type," with "Text note" currently selected. At the bottom, there are two buttons: "Cancel" and "OK." The keyboard is visible, indicating text input is active.
+
+(Previous Action Analysis)
+- The user has already input the username "Alice" and password "1234" for login.
+- The user has input the note content "Remember to buy milk and bread."
+- The user clicked "Create a new note" and then clicked "OK" on a previous dialog.
+- The user input "Shopping List" as the label for the note.
+- The current dialog is asking for confirmation of the label and note type before finalizing the note creation.
+- Since the last action was inputting the label text, a confirmation action is needed to finalize the note creation.
+
+(Screenshot Details Analysis)
+- The label "Shopping List" is correctly entered.
+- The note type "Text note" is selected, which is appropriate for the content.
+- The keyboard is open, so the user can still type, but no further text input is needed.
+- The next logical step is to confirm the note creation by clicking "OK."
+
+(Next Action Based on Android screen and Analysis)
+Tap the "OK" button located at the bottom right of the "Add a new note" dialog to confirm and create the note.
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+"Create a new note" button -> CLICK
+"OK" button -> CLICK
+a "Label" text box with the text "Label" -> INPUT TEXT: Shopping List
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C1C1890>
+-------- Role: ASSISTANT --------
+
+
+(Current Screen Identification)
+The current screen is a pop-up dialog titled "Add a new note." It contains a text input field labeled "Label" with the text "Shopping List" already entered. Below that, there are radio buttons for selecting the "New note type," with "Text note" currently selected. At the bottom, there are two buttons: "Cancel" and "OK." The keyboard is visible, indicating text input is active.
+
+(Previous Action Analysis)
+- The user has already input the username "Alice" and password "1234" for login.
+- The user has input the note content "Remember to buy milk and bread."
+- The user clicked "Create a new note" and then clicked "OK" on a previous dialog.
+- The user input "Shopping List" as the label for the note.
+- The current dialog is asking for confirmation of the label and note type before finalizing the note creation.
+- Since the last action was inputting the label text, a confirmation action is needed to finalize the note creation.
+
+(Screenshot Details Analysis)
+- The label "Shopping List" is correctly entered.
+- The note type "Text note" is selected, which is appropriate for the content.
+- The keyboard is open, so the user can still type, but no further text input is needed.
+- The next logical step is to confirm the note creation by clicking "OK."
+
+(Next Action Based on Android screen and Analysis)
+Tap the "OK" button located at the bottom right of the "Add a new note" dialog to confirm and create the note.
+-------- Role: USER --------
+(Reiteration)
+First, reiterate your next target element, its detailed location, and the corresponding operation.
+
+(Multichoice Question)
+Below is a multi-choice question, where the choices are elements on the screen. All elements are arranged in the order based on their height on the screen, from top to bottom (and from left to right). This arrangement can be used to locate them. From the screenshot, find out where and what each one is on the screen, taking into account both their text content and details. Then, determine whether one matches your target element. Please examine the choices one by one. Choose the matching one. If multiple options match your answer, choose the most likely one by re-examining the screenshot, the choices, and your further reasoning. If you would like to perform a swipe action, you can optionally select the choice where you will swipe.
+
+A. "Add a new note" icon
+B. a "Label" text box with the text "Shopping List"
+C. "New note type:" icon
+D. a radio button with the text "Text note" that is selected
+E. a radio button with the text "Checklist" that is not selected
+F. "Cancel" button
+G. "OK" button
+H. "Back" image
+I. "Switch input method" image
+J. "1" icon
+K. "2" icon
+L. "3" icon
+M. "4" icon
+N. "5" icon
+O. "6" icon
+P. "7" icon
+Q. "8" icon
+R. "9" icon
+S. "0" icon
+T. "q" icon
+U. "w" icon
+V. "e" icon
+W. "r" icon
+X. "t" icon
+Y. "y" icon
+Z. "u" icon
+AA. "i" icon
+AB. "o" icon
+AC. "p" icon
+AD. "a" icon
+AE. "s" icon
+AF. "d" icon
+AG. "f" icon
+AH. "g" icon
+AI. "h" icon
+AJ. "j" icon
+AK. "k" icon
+AL. "l" icon
+AM. "Shift" icon
+AN. "z" icon
+AO. "x" icon
+AP. "c" icon
+AQ. "v" icon
+AR. "b" icon
+AS. "n" icon
+AT. "m" icon
+AU. "Delete" icon
+AV. "Symbol keyboard" icon
+AW. "," icon
+AX. "Space" icon
+AY. "." icon
+AZ. "Enter" icon
+BA. "06:49" icon
+BB. "Wifi signal full." icon
+BC. "Phone signal full." icon
+BD. "Battery 100 percent." icon
+If none of these elements match your target element, please select BE. None of the other options match the correct element.
+
+(Final Answer)
+Finally, conclude your answer using the format below. Ensure your answer is strictly adhering to the format provided below. Please do not leave any explanation in your answers of the final standardized format part, and this final part should be clear and certain. The element choice, action, and value should be in three separate lines.
+
+Format:
+
+ELEMENT: The uppercase letter of your choice. (No need for WAIT, KEYBOARD ENTER, ANSWER, NAVIGATE HOME, OPEN APP, NAVIGATE BACK, TERMINATE; and optional for SWIPE.)
+
+ACTION: Choose an action from {WAIT, OPEN APP, KEYBOARD ENTER, INPUT TEXT, ANSWER, NAVIGATE HOME, NAVIGATE BACK, CLICK, TERMINATE, LONG PRESS, SWIPE}.
+
+VALUE: Provide additional input based on ACTION.
+
+The VALUE means:
+If ACTION == INPUT TEXT, specify the text to be typed.
+If ACTION == SWIPE, specify the direction: up, down, left, right.
+If ACTION == OPEN APP, provide the name of the app to be opened.
+If ACTION == ANSWER, specify the text of your answer to respond directly to a question or request for information.
+For CLICK, LONG PRESS, KEYBOARD ENTER, NAVIGATE HOME, NAVIGATE BACK, WAIT, and TERMINATE, write "None".
+
+
+~~~~~~~~~ANSWER~~~~~~~~~:"OK" button -> CLICK
+
+
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+"Create a new note" button -> CLICK
+"OK" button -> CLICK
+a "Label" text box with the text "Label" -> INPUT TEXT: Shopping List
+"OK" button -> CLICK
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C1C2450>
+
+~~~ANSWER~~~:(Current Screen Identification)
+The current screen is the note editing screen for the "Shopping List" label. The text input area shows the placeholder text "Insert text here," indicating that the note content is currently empty.
+
+(Previous Action Analysis)
+- The user logged in with username "Alice" and password "1234."
+- The user created a new note and labeled it "Shopping List."
+- The user input the note content "Remember to buy milk and bread" but it is not reflected in the note content area on the screen.
+- The last action was inputting text into the "Label" text box and clicking "OK," which likely confirmed the label but did not confirm the note content.
+
+(Screenshot Details Analysis)
+- The note content area is empty, showing the placeholder "Insert text here."
+- The keyboard is open, ready for text input.
+- There is no visible "Save" or "OK" button on the screen to confirm the note content.
+- The top bar has icons for search, folder, plus (add), and menu (three dots).
+
+(Next Action Based on Android screen and Analysis)
+Since the note content area is empty and the keyboard is open, the note content "Remember to buy milk and bread" was not saved or confirmed yet. The next logical step is to input the note content text into the note content area.
+
+Action:
+- Tap on the note content area where it says "Insert text here" (center-left area below the "Shopping List" tab) to focus it.
+- Then input the text: Remember to buy milk and bread.
+
+Since the keyboard is already open, the first next action is to tap on the note content area to focus it for text input.
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+"Create a new note" button -> CLICK
+"OK" button -> CLICK
+a "Label" text box with the text "Label" -> INPUT TEXT: Shopping List
+"OK" button -> CLICK
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C1C1410>
+-------- Role: ASSISTANT --------
+
+
+(Current Screen Identification)
+The current screen is the note editing screen for the "Shopping List" label. The text input area shows the placeholder text "Insert text here," indicating that the note content is currently empty.
+
+(Previous Action Analysis)
+- The user logged in with username "Alice" and password "1234."
+- The user created a new note and labeled it "Shopping List."
+- The user input the note content "Remember to buy milk and bread" but it is not reflected in the note content area on the screen.
+- The last action was inputting text into the "Label" text box and clicking "OK," which likely confirmed the label but did not confirm the note content.
+
+(Screenshot Details Analysis)
+- The note content area is empty, showing the placeholder "Insert text here."
+- The keyboard is open, ready for text input.
+- There is no visible "Save" or "OK" button on the screen to confirm the note content.
+- The top bar has icons for search, folder, plus (add), and menu (three dots).
+
+(Next Action Based on Android screen and Analysis)
+Since the note content area is empty and the keyboard is open, the note content "Remember to buy milk and bread" was not saved or confirmed yet. The next logical step is to input the note content text into the note content area.
+
+Action:
+- Tap on the note content area where it says "Insert text here" (center-left area below the "Shopping List" tab) to focus it.
+- Then input the text: Remember to buy milk and bread.
+
+Since the keyboard is already open, the first next action is to tap on the note content area to focus it for text input.
+-------- Role: USER --------
+(Reiteration)
+First, reiterate your next target element, its detailed location, and the corresponding operation.
+
+(Multichoice Question)
+Below is a multi-choice question, where the choices are elements on the screen. All elements are arranged in the order based on their height on the screen, from top to bottom (and from left to right). This arrangement can be used to locate them. From the screenshot, find out where and what each one is on the screen, taking into account both their text content and details. Then, determine whether one matches your target element. Please examine the choices one by one. Choose the matching one. If multiple options match your answer, choose the most likely one by re-examining the screenshot, the choices, and your further reasoning. If you would like to perform a swipe action, you can optionally select the choice where you will swipe.
+
+A. "Search" button
+B. "Open note" button
+C. "Create a new note" button
+D. "More options" image
+E. "org.fossify.notes.debug:id/view_pager" icon
+F. "General note" icon
+G. "Shopping List" icon
+H. a "Insert text here" text box with the text "Insert text here"
+I. "Back" image
+J. "Switch input method" image
+K. "More features" icon
+L. "Sticker Keyboard" icon
+M. "GIF Keyboard" icon
+N. "Clipboard" icon
+O. "Settings" icon
+P. "Theme settings" icon
+Q. "Voice input" icon
+R. "Q" icon
+S. "W" icon
+T. "E" icon
+U. "R" icon
+V. "T" icon
+W. "Y" icon
+X. "U" icon
+Y. "I" icon
+Z. "O" icon
+AA. "P" icon
+AB. "A" icon
+AC. "S" icon
+AD. "D" icon
+AE. "F" icon
+AF. "G" icon
+AG. "H" icon
+AH. "J" icon
+AI. "K" icon
+AJ. "L" icon
+AK. "Shift" icon
+AL. "Z" icon
+AM. "X" icon
+AN. "C" icon
+AO. "V" icon
+AP. "B" icon
+AQ. "N" icon
+AR. "M" icon
+AS. "Delete" icon
+AT. "Symbol keyboard" icon
+AU. "," icon
+AV. "Emoji button" icon
+AW. "Space" icon
+AX. "." icon
+AY. "Enter" icon
+AZ. "06:49" icon
+BA. "Wifi signal full." icon
+BB. "Phone three bars." icon
+BC. "Battery 100 percent." icon
+If none of these elements match your target element, please select BD. None of the other options match the correct element.
+
+(Final Answer)
+Finally, conclude your answer using the format below. Ensure your answer is strictly adhering to the format provided below. Please do not leave any explanation in your answers of the final standardized format part, and this final part should be clear and certain. The element choice, action, and value should be in three separate lines.
+
+Format:
+
+ELEMENT: The uppercase letter of your choice. (No need for WAIT, KEYBOARD ENTER, ANSWER, NAVIGATE HOME, OPEN APP, NAVIGATE BACK, TERMINATE; and optional for SWIPE.)
+
+ACTION: Choose an action from {WAIT, OPEN APP, KEYBOARD ENTER, INPUT TEXT, ANSWER, NAVIGATE HOME, NAVIGATE BACK, CLICK, TERMINATE, LONG PRESS, SWIPE}.
+
+VALUE: Provide additional input based on ACTION.
+
+The VALUE means:
+If ACTION == INPUT TEXT, specify the text to be typed.
+If ACTION == SWIPE, specify the direction: up, down, left, right.
+If ACTION == OPEN APP, provide the name of the app to be opened.
+If ACTION == ANSWER, specify the text of your answer to respond directly to a question or request for information.
+For CLICK, LONG PRESS, KEYBOARD ENTER, NAVIGATE HOME, NAVIGATE BACK, WAIT, and TERMINATE, write "None".
+
+
+~~~~~~~~~ANSWER~~~~~~~~~:a "Insert text here" text box with the text "Insert text here" -> CLICK
+
+
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+"Create a new note" button -> CLICK
+"OK" button -> CLICK
+a "Label" text box with the text "Label" -> INPUT TEXT: Shopping List
+"OK" button -> CLICK
+a "Insert text here" text box with the text "Insert text here" -> CLICK
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C1AA950>
+
+~~~ANSWER~~~:(Current Screen Identification)
+The current screen is the note editing screen for the "Shopping List" category. The text input area shows the placeholder text "Insert text here," and the keyboard is open, ready for text input.
+
+(Previous Action Analysis)
+- The user has logged in with username "Alice" and password "1234."
+- The user created a new note and labeled it "Shopping List."
+- The user attempted to input the note content "Remember to buy milk and bread" but the text area is still empty, showing the placeholder "Insert text here."
+- The last action was clicking the text input area, but no text has been entered yet.
+
+(Screenshot Details Analysis)
+- The note content area is empty, so the note content has not been successfully input yet.
+- The keyboard is open, so the user can type text now.
+- There is no visible "Save" or "OK" button on the screen, so the next step is to input the note content.
+
+(Next Action Based on Android screen and Analysis)
+The next action is to input the note content "Remember to buy milk and bread" into the text area.
+
+Action: Input text "Remember to buy milk and bread" into the text input area located below the "Shopping List" tab, where the cursor is currently blinking.
+================================================================================
+-------- Role: SYSTEM --------
+-------- Role: USER --------
+You are asked to complete the following task: Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
+
+Previous Actions:
+No Operation with error: Action type is click, but received no target element or incorrect target element.
+a "Username (letters and numbers only)" text box that is empty -> INPUT TEXT: Alice
+a "Password (letters and numbers only)" text box that is empty -> INPUT TEXT: 1234
+a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+"Create a new note" button -> CLICK
+"OK" button -> CLICK
+a "Label" text box with the text "Label" -> INPUT TEXT: Shopping List
+"OK" button -> CLICK
+a "Insert text here" text box with the text "Insert text here" -> CLICK
+
+The screenshot below shows the Android screen you see. Follow the following guidance to think step by step before outlining the next action step at the current stage:
+
+(Current Screen Identification)
+Firstly, think about what the current screen is.
+
+(Previous Action Analysis)
+Secondly, combined with the screenshot, analyze each step of the previous action history and their intention one by one. Particularly, pay more attention to the last step, which may be more related to what you should do now as the next step. Specifically, if the last action involved a INPUT TEXT, always evaluate whether it necessitates a confirmation step, because typically a single INPUT TEXT action does not make effect. (often, simply pressing 'Enter', assuming the default element involved in the last action, unless other clear elements are present for operation).
+
+(Screenshot Details Analysis)
+Closely examine the screenshot to check the status of every part of the screen to understand what you can operate with and what has been set or completed. You should closely examine the screenshot details to see what steps have been completed by previous actions even though you are given the textual previous actions. Because the textual history may not clearly and sufficiently record some effects of previous actions, you should closely evaluate the status of every part of the screen to understand what you have done.
+
+(Next Action Based on Android screen and Analysis)
+Then, based on your analysis, in conjunction with human phone operation habits and the logic of app design, decide on the following action. And clearly outline which element on the Android screen users will operate with as the first next target element, its detailed location, and the corresponding operation.
+
+To be successful, it is important to follow the following rules:
+1. You should only issue a valid action given the current observation.
+2. You should only issue one action at a time
+3. For handling the select dropdown elements on a screen, it's not necessary for you to provide completely accurate options right now. The full list of options for these elements will be supplied later.
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=230x512 at 0x71926C1A8C90>
+-------- Role: ASSISTANT --------
+
+
+(Current Screen Identification)
+The current screen is the note editing screen for the "Shopping List" category. The text input area shows the placeholder text "Insert text here," and the keyboard is open, ready for text input.
+
+(Previous Action Analysis)
+- The user has logged in with username "Alice" and password "1234."
+- The user created a new note and labeled it "Shopping List."
+- The user attempted to input the note content "Remember to buy milk and bread" but the text area is still empty, showing the placeholder "Insert text here."
+- The last action was clicking the text input area, but no text has been entered yet.
+
+(Screenshot Details Analysis)
+- The note content area is empty, so the note content has not been successfully input yet.
+- The keyboard is open, so the user can type text now.
+- There is no visible "Save" or "OK" button on the screen, so the next step is to input the note content.
+
+(Next Action Based on Android screen and Analysis)
+The next action is to input the note content "Remember to buy milk and bread" into the text area.
+
+Action: Input text "Remember to buy milk and bread" into the text input area located below the "Shopping List" tab, where the cursor is currently blinking.
+-------- Role: USER --------
+(Reiteration)
+First, reiterate your next target element, its detailed location, and the corresponding operation.
+
+(Multichoice Question)
+Below is a multi-choice question, where the choices are elements on the screen. All elements are arranged in the order based on their height on the screen, from top to bottom (and from left to right). This arrangement can be used to locate them. From the screenshot, find out where and what each one is on the screen, taking into account both their text content and details. Then, determine whether one matches your target element. Please examine the choices one by one. Choose the matching one. If multiple options match your answer, choose the most likely one by re-examining the screenshot, the choices, and your further reasoning. If you would like to perform a swipe action, you can optionally select the choice where you will swipe.
+
+A. "Search" button
+B. "Open note" button
+C. "Create a new note" button
+D. "More options" image
+E. "org.fossify.notes.debug:id/view_pager" icon
+F. "General note" icon
+G. "Shopping List" icon
+H. a "Insert text here" text box with the text "Insert text here"
+I. "Back" image
+J. "Switch input method" image
+K. "More features" icon
+L. "Sticker Keyboard" icon
+M. "GIF Keyboard" icon
+N. "Clipboard" icon
+O. "Settings" icon
+P. "Theme settings" icon
+Q. "Voice input" icon
+R. "Q" icon
+S. "W" icon
+T. "E" icon
+U. "R" icon
+V. "T" icon
+W. "Y" icon
+X. "U" icon
+Y. "I" icon
+Z. "O" icon
+AA. "P" icon
+AB. "A" icon
+AC. "S" icon
+AD. "D" icon
+AE. "F" icon
+AF. "G" icon
+AG. "H" icon
+AH. "J" icon
+AI. "K" icon
+AJ. "L" icon
+AK. "Shift" icon
+AL. "Z" icon
+AM. "X" icon
+AN. "C" icon
+AO. "V" icon
+AP. "B" icon
+AQ. "N" icon
+AR. "M" icon
+AS. "Delete" icon
+AT. "Symbol keyboard" icon
+AU. "," icon
+AV. "Emoji button" icon
+AW. "Space" icon
+AX. "." icon
+AY. "Enter" icon
+AZ. "06:50" icon
+BA. "Wifi signal full." icon
+BB. "Phone three bars." icon
+BC. "Battery 100 percent." icon
+If none of these elements match your target element, please select BD. None of the other options match the correct element.
+
+(Final Answer)
+Finally, conclude your answer using the format below. Ensure your answer is strictly adhering to the format provided below. Please do not leave any explanation in your answers of the final standardized format part, and this final part should be clear and certain. The element choice, action, and value should be in three separate lines.
+
+Format:
+
+ELEMENT: The uppercase letter of your choice. (No need for WAIT, KEYBOARD ENTER, ANSWER, NAVIGATE HOME, OPEN APP, NAVIGATE BACK, TERMINATE; and optional for SWIPE.)
+
+ACTION: Choose an action from {WAIT, OPEN APP, KEYBOARD ENTER, INPUT TEXT, ANSWER, NAVIGATE HOME, NAVIGATE BACK, CLICK, TERMINATE, LONG PRESS, SWIPE}.
+
+VALUE: Provide additional input based on ACTION.
+
+The VALUE means:
+If ACTION == INPUT TEXT, specify the text to be typed.
+If ACTION == SWIPE, specify the direction: up, down, left, right.
+If ACTION == OPEN APP, provide the name of the app to be opened.
+If ACTION == ANSWER, specify the text of your answer to respond directly to a question or request for information.
+For CLICK, LONG PRESS, KEYBOARD ENTER, NAVIGATE HOME, NAVIGATE BACK, WAIT, and TERMINATE, write "None".
+
+
+~~~~~~~~~ANSWER~~~~~~~~~:a "Insert text here" text box with the text "Insert text here" -> INPUT TEXT: Remember to buy milk and bread
+
+
+================================================================================
+Task Failed ❌; Follow the instruction to create a note, the content is: 'Remember to buy milk and bread.'. If you need to login, the username is Alice, the password is 1234.
