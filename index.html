@@ -42,12 +42,12 @@
     .toc a:hover{background:#f1f5f9}
 
     /* ✅ 让 Case Studies 图片自适应并居中 */
-    .carousel .slide {
+    #cases-carousel .slide {
       display:flex;
       justify-content:center;
       align-items:center;
     }
-    .carousel .slide img{
+    #cases-carousel .slide img{
       max-width:80%;
       max-height:80vh;
       height:auto;
@@ -84,7 +84,7 @@
     .carousel .slide{flex:0 0 100%;scroll-snap-align:start}
     /* 不再强制 width:100% ，避免放大图片 */
     .carousel img{display:block;border-radius:12px;max-width:100%;height:auto}
-    .carousel .nav{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;border-radius:999px;border:1px solid var(--border);background:#ffffff;display:grid;place-items:center;opacity:.9}
+    .carousel .nav{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;border-radius:999px;border:1px solid var(--border);background:#ffffff;display:grid;place-items:center;opacity:.9;z-index:5}
     .carousel .nav:hover{background:#f3f4f6}
     .carousel .prev{left:8px}
     .carousel .next{right:8px}
@@ -115,6 +115,24 @@
     .case-desc h3{margin:0 0 6px;font-size:16px;font-weight:600;color:var(--text)}
     .case-desc p{margin:6px 0 0;color:#6b7280}
     .case-desc.hidden{display:none}
+
+    /* Responsive video grid for Demo */
+    .video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+    .video{
+      position:relative;border:1px solid var(--border);border-radius:12px;overflow:hidden;background:#000;aspect-ratio:16/9;
+      width:100%; /* ensure aspect-ratio produces visible height */
+    }
+    .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:1}
+
+    /* Demo descriptions synced with slides */
+    .demo-descs{margin-top:12px}
+    .demo-desc{background:#f8fafc;border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+    .demo-desc h3{margin:0 0 6px;font-size:16px;font-weight:600;color:var(--text)}
+    .demo-desc p{margin:6px 0 0;color:#6b7280}
+    .demo-desc.hidden{display:none}
+
+    /* Override any global slide centering for the demo carousel */
+    #demo-carousel .slide{display:block}
   </style>
 </head>
 <body>
@@ -280,17 +298,86 @@
 
     <section id="demo">
       <h2>Demo</h2>
-      <div class="teaser">Embed a video (YouTube unlisted) or GIF here.</div>
-      <div class="textbox small">
-        <h3>Demo notes</h3>
-        <p>Briefly describe what the demo shows: scenario, agent, steps, expected result, and risks. Keep it to 2–4 lines. Example:</p>
-        <ul class="klist">
-          <li><strong>Scenario:</strong> Ad-injected prompt in Gmail diverts the agent.</li>
-          <li><strong>Agent:</strong> AppAgentX (AndroidWorld), autonomy on.</li>
-          <li><strong>Outcome:</strong> Agent opens Contacts → copies Dad’s number → drafts email.</li>
-        </ul>
+      <!-- Demo carousel -->
+      <div class="carousel" id="demo-carousel">
+        <button class="nav prev" type="button" aria-label="Previous">←</button>
+        <div class="track" id="demo-track">
+          <div class="slide">
+            <div class="video">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/rUb4twjOsT8?rel=0"
+                title="Phishing (Content Leakage) on MobA - Demo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="video">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/A9iHj-Lmv-E?rel=0"
+                title="Phishing via Fake Login on Mobile-Agent-E - Demo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <button class="nav next" type="button" aria-label="Next">→</button>
+        <div class="dots" id="demo-dots"></div>
+      </div>
+
+      <!-- Per-demo notes (auto-synced with slides). Edit content manually. -->
+      <div class="demo-descs">
+        <div class="demo-desc" data-idx="0">
+          <h3>Phishing (Content Leakage)</h3>
+          <ul class="klist">
+            <li><strong>Scenario:</strong> <!-- update --> </li>
+            <li><strong>Agent: MobA</strong> <!-- update --> </li>
+            <li><strong>Outcome:</strong> <!-- update --> </li>
+          </ul>
+        </div>
+        <div class="demo-desc hidden" data-idx="1">
+          <h3>Phishing via Fake Login</h3>
+          <ul class="klist">
+            <li><strong>Scenario:</strong> <!-- update --> </li>
+            <li><strong>Agent: Mobile-Agent-E</strong> <!-- update --> </li>
+            <li><strong>Outcome:</strong> <!-- update --> </li>
+          </ul>
+        </div>
       </div>
     </section>
+
+    <script>
+      // Demo carousel controller (independent from Case Studies)
+      (function(){
+        const track = document.getElementById('demo-track');
+        if(!track) return;
+        const prev = document.querySelector('#demo-carousel .prev');
+        const next = document.querySelector('#demo-carousel .next');
+        const dotsWrap = document.getElementById('demo-dots');
+        const slides = track.querySelectorAll('.slide');
+        const descs = [...document.querySelectorAll('.demo-descs .demo-desc')];
+        // Build dots
+        slides.forEach((_,i)=>{
+          const d=document.createElement('div');
+          d.className='dot'+(i===0?' active':'');
+          d.addEventListener('click',()=>track.scrollTo({left:i*track.clientWidth,behavior:'smooth'}));
+          dotsWrap.appendChild(d);
+        });
+        function setIdx(i){
+          [...dotsWrap.children].forEach((e,k)=>e.classList.toggle('active',k===i));
+          descs.forEach((el)=>el.classList.toggle('hidden',+el.dataset.idx!==i));
+        }
+        function sync(){ const i=Math.round(track.scrollLeft/track.clientWidth); setIdx(i); }
+        track.addEventListener('scroll',()=>{window.requestAnimationFrame(sync)});
+        function scrollPage(dir){ track.scrollBy({left: dir * track.clientWidth, behavior:'smooth'}); }
+        prev && prev.addEventListener('click',()=>scrollPage(-1));
+        next && next.addEventListener('click',()=>scrollPage(1));
+        // Init
+        setIdx(0);
+      })();
+    </script>
 
     <section id="artifacts">
       <h2>Artifacts & Code</h2>
